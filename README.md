@@ -19,24 +19,7 @@ Konsol tabanlı uygulama
 
 Proje Yapısı
 
-Proje katmanlı mimariye uygun şekilde tasarlanmıştır:
-
-entity
-Veritabanı tablolarını temsil eden sınıflar bu pakette yer almaktadır.
-@Entity, @Table, @OneToMany, @ManyToOne, @OneToOne gibi Hibernate annotation’ları kullanılmıştır.
-
-dao
-Veritabanı işlemlerinin yapıldığı katmandır.
-Her entity için ayrı bir DAO sınıfı oluşturulmuş ve CRUD işlemleri burada gerçekleştirilmiştir.
-Hibernate Session ve Transaction yapıları aktif olarak kullanılmıştır.
-
-util
-Hibernate yapılandırmasının yapıldığı HibernateUtil sınıfı bu pakettedir.
-SessionFactory burada oluşturulmuş ve uygulama genelinde kullanılmıştır.
-
-app
-Uygulamanın çalıştığı ana katmandır.
-Konsol menüsü ve kullanıcı etkileşimleri bu katmanda gerçekleştirilmiştir.
+Proje katmanlı mimariye uygun şekilde tasarlanmıştır
 
 Entity Yapıları ve İlişkiler
 
